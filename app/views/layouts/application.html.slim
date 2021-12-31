@@ -1,0 +1,7 @@
+doctype html
+html
+  = render partial: "/layouts/head"
+  body.h-full.bg-white
+    .max-w-7xl.mx-auto.px-4.sm:px-6
+      = render partial: "/layouts/header"
+      = yield
